@@ -1,0 +1,19 @@
+
+.box1{
+    background-color: blue;
+    color: red;
+}
+.box2{
+    background-color: brown;
+    color: red;
+}
+.box3{
+    background-color: silver;
+    color: red;
+}
+
+.parent{
+    display: flex;
+
+    width: 25%;
+}
