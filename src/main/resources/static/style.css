@@ -2,19 +2,247 @@
 body{
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/*------- Carousel SLIDER ---------*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding: 25px 25px 25px 25px;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: cadetblue;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
 
 
+/* Le corp */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+img {
+    width: 300px;
+}
+a {
+    color: darkslategray;
+}
+a:hover {
+    text-decoration: none;
+}
+h1 {
+    font-size: 100px;
+    line-height: 1;
+}
+h2 {
+    font-size: 45px;
+}
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+.content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+h3 {
+    margin-bottom: 0;
+}
+.item-details h3 + p {
+    font-style: italic;
+}
+.item-details h3 ~ p {
+    margin: 0;
+}
+/* cette parti souligne les phrases*/
+.divider > section {
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+.divider > section:last-of-type {
+    border-bottom: none;
+}
+
+
+/* Profile
+------------------------------------*/
+header {
+    background: #2F3061;
+    color: #F7FFF7;
+}
+
+
+/* Projects
+------------------------------------*/
+.projects {
+    background: #F7FFF7;
+}
+.projects a {
+    color: #2F3061;
+}
+.projects .btn{
+    color: #F7FFF7;
+    background: #2F3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 40px;
+    display: inline-block;
+}
+.projects .btn:hover {
+    background: rgba(47, 48, 97, 80);
+}
+.project-item {
+    overflow: hidden;
+}
+.project-item h3 {
+    margin-top: 0;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+    background: #A1C6D7;
+}
+
+
+
+/* Education
+------------------------------------*/
+.education {
+    background-image: url(../images/joanna-kosinska-unsplash.jpg);
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 100px;
+}
+.education p {
+    width: 60%;
+}
+
+
+/* Contact Info
+------------------------------------*/
+footer {
+    background: #343434;
+    color: #F7FFF7;
+}
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
+}
 
 
 /* Footer */
 
-.container{
+.container-footer{
     max-width: 1170px;
     margin: auto;
 }

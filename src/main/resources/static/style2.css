@@ -2,18 +2,27 @@
 .box1{
     background-color: blue;
     color: red;
+    width: 250px;
+    height: 200px;
 }
 .box2{
     background-color: brown;
     color: red;
 }
-.box3{
+.parent .box3{
     background-color: silver;
     color: red;
+    margin-left: auto;
+
+
 }
 
 .parent{
     display: flex;
+    justify-content: space-around;
+
+
+
 
     width: 25%;
 }
