@@ -24,6 +24,7 @@ body{
     margin: auto;
     padding: 25px 25px 25px 25px;
 
+
 }
 
 /* Hide the images by default */
@@ -58,25 +59,6 @@ body{
     background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
-.text {
-    color: black;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
 
 /* The dots/bullets/indicators */
 .dot {
@@ -203,7 +185,7 @@ header {
 }
 
 
-/* Work Experience
+/* Wor
 ------------------------------------*/
 .work-experience {
     background: #A1C6D7;
@@ -211,7 +193,7 @@ header {
 
 
 
-/* Education
+/* Edu
 ------------------------------------*/
 .education {
     background-image: url(../images/joanna-kosinska-unsplash.jpg);
@@ -275,7 +257,7 @@ ul{
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: #e91e63;
+    background-color: cadetblue ;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -291,6 +273,9 @@ ul{
     color: #bbbbbb;
     display: block;
     transition: all 0.3s ease;
+}
+li{
+    color: #bbbbbb;
 }
 .footer-col ul li a:hover{
     color: #ffffff;
@@ -310,5 +295,5 @@ ul{
 }
 .footer-col .social-link a:hover{
     color: #24262b;
-    background-color: #ffffff;
+    background-color: cadetblue;
 }
