@@ -6,7 +6,6 @@ body{
     margin: 0;
     padding: 0;
     font-size: 15px;
-
 }
 *{
     margin: 0;
@@ -18,84 +17,50 @@ body{
 /* ------------ Header ________________*/
 
 header {
-    margin: 10px;
-    background-color: #181818;
+    z-index: 1;
+    margin-top: -50px;
+    width: 100%;
+    position: fixed;
 }
 table {
+    padding: 0;
     margin-left: auto;
     margin-right: auto;
-}
-td:hover {
-    padding-top: 5px;
-}
-td.image {
-    pointer-events: none;
-    padding-top: 5px;
 }
 td h2 {
     padding-left: 5px;
     padding-right: 5px;
     margin-bottom: 0;
     margin-top: 0;
+    font-size: large;
     color: #fff;
-    font-family: Arial, ui-sans-serif;
 }
 table {
     margin-top: 50px;
 }
-header div.splash {
-    margin-top: -40px;
-    margin-left: -20px;
-    position: absolute;
-    font-size: small;
-    color: yellow;
-    transform: rotate(20deg);
-    animation: grow-and-shrink 1s ease-in forwards infinite alternate;
+img {
+    width: 300px;
 }
-header div.splash:hover {
-    position: absolute;
+.house-icon {
+    width: 80px;
 }
-@keyframes grow-and-shrink {
-    100% {
-        font-size: large;
-    }
-}
-.housetable {
-    pointer-events: none;
-}
-.house {
-    margin-bottom: 30px;
-    justify-content: center;
-    align-items: center;
-}
-.house-frame {
-    position: absolute;
-    height: 25px;
-    width: 30px;
-    background: #f5f0f0;
-}
-.house-roof {
+.header-table {
+    padding-left: 10px;
+    padding-right: 10px;
     position: relative;
-    width: 0;
-    height: 0;
-    margin-left: -4px;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-bottom: 15px solid #ad1424;
+    transition-duration: 0.5s;
 }
-.house-door {
-    margin-left: 10px;
-    margin-top: 10px;
-    position: absolute;
-    height: 15px;
-    width: 10px;
-    background: saddlebrown;
+.header-table:hover {
+    position: relative;
+    background: rgba(23, 21, 21, 0.85);
 }
-.house-chimney {
-    position: absolute;
-    height: 15px;
-    width: 7px;
-    background: grey;
+a {
+    text-decoration: none;
+}
+
+.introduction {
+    margin-top: 100px;
+    font-size: xx-large;
 }
 /*------- Carousel SLIDER ---------*/
 
@@ -113,6 +78,7 @@ header div.splash:hover {
 
 /* Hide the images by default */
 .mySlides {
+    margin-top: 70px;
     display: none;
 }
 
@@ -187,9 +153,6 @@ html {
     box-sizing: inherit;
 }
 
-img {
-    width: 300px;
-}
 a {
     color: darkslategray;
 }
@@ -204,7 +167,6 @@ h2 {
     font-size: 45px;
 }
 h1, h2 {
-    font-family: 'Caveat', cursive;
     font-weight: 400;
     margin: 0;
 }
@@ -237,7 +199,7 @@ h3 {
 /* Profile
 ------------------------------------*/
 header {
-    background: #2F3061;
+    background: #000000;
     color: #F7FFF7;
 }
 
