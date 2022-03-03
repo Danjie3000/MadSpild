@@ -13,6 +13,90 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* ------------ Header ________________*/
+
+header {
+    margin: 10px;
+    background-color: #181818;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+td:hover {
+    padding-top: 5px;
+}
+td.image {
+    pointer-events: none;
+    padding-top: 5px;
+}
+td h2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #fff;
+    font-family: Arial, ui-sans-serif;
+}
+table {
+    margin-top: 50px;
+}
+header div.splash {
+    margin-top: -40px;
+    margin-left: -20px;
+    position: absolute;
+    font-size: small;
+    color: yellow;
+    transform: rotate(20deg);
+    animation: grow-and-shrink 1s ease-in forwards infinite alternate;
+}
+header div.splash:hover {
+    position: absolute;
+}
+@keyframes grow-and-shrink {
+    100% {
+        font-size: large;
+    }
+}
+.housetable {
+    pointer-events: none;
+}
+.house {
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.house-frame {
+    position: absolute;
+    height: 25px;
+    width: 30px;
+    background: #f5f0f0;
+}
+.house-roof {
+    position: relative;
+    width: 0;
+    height: 0;
+    margin-left: -4px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 15px solid #ad1424;
+}
+.house-door {
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+    height: 15px;
+    width: 10px;
+    background: saddlebrown;
+}
+.house-chimney {
+    position: absolute;
+    height: 15px;
+    width: 7px;
+    background: grey;
+}
 /*------- Carousel SLIDER ---------*/
 
 * {box-sizing:border-box}
