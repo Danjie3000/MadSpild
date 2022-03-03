@@ -18,7 +18,8 @@ body{
 
 header {
     z-index: 1;
-    margin-top: -50px;
+    top: 0;
+    left: 0;
     width: 100%;
     position: fixed;
 }
@@ -34,9 +35,6 @@ td h2 {
     margin-top: 0;
     font-size: large;
     color: #fff;
-}
-table {
-    margin-top: 50px;
 }
 img {
     width: 300px;
@@ -59,7 +57,9 @@ a {
 }
 
 .introduction {
+    margin: auto;
     margin-top: 100px;
+    width: 1000px;
     font-size: xx-large;
 }
 /*------- Carousel SLIDER ---------*/
