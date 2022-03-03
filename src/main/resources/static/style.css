@@ -17,6 +17,7 @@ body{
 /* ------------ Header ________________*/
 
 header {
+    opacity: 92%;
     z-index: 1;
     top: 0;
     left: 0;
@@ -41,6 +42,10 @@ img {
 }
 .house-icon {
     width: 80px;
+    transition-duration: 0.5s;
+}
+.house-icon:hover {
+    background: rgba(23, 21, 21, 0.85);
 }
 .header-table {
     padding-left: 10px;

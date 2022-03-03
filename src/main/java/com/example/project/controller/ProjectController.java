@@ -8,7 +8,7 @@ public class ProjectController {
 
   @GetMapping("/index")
   public String index(){
-    return "index";
+    return "page1.5";
   }
 
   @GetMapping("/page1")
@@ -18,6 +18,6 @@ public class ProjectController {
 
   @GetMapping("/page2")
   public String page2(){
-    return "page2";
+    return "index";
   }
 }
