@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 body{
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
@@ -137,7 +138,7 @@ a {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: cadetblue;
+    color: #59b700;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -281,7 +282,7 @@ header {
 /* Wor
 ------------------------------------*/
 .work-experience {
-    background: #A1C6D7;
+    background: #92c26b;
 }
 
 
@@ -350,7 +351,7 @@ ul{
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: cadetblue ;
+    background-color: #779352;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -388,5 +389,5 @@ li{
 }
 .footer-col .social-link a:hover{
     color: #24262b;
-    background-color: cadetblue;
+    background-color: #59b700;
 }
