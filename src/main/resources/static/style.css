@@ -98,6 +98,9 @@ a {
     padding-right: 20px;
     animation: fade-in 2s ease-in;
 }
+.text-block-heading {
+    padding-bottom: 20px;
+}
 .text-block-top {
 
 }
