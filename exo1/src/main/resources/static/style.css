@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    background: #1a1a1a;;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ------------ Header ________________*/
+
+header.header {
+    opacity: 92%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+table {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-logo {
+    position: absolute;
+    left: 20px;
+}
+.header-logo-img {
+    width: 85px;
+}
+.header-logo-text {
+    left: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: medium;
+    font-family: Arial, sans-serif;
+    max-width: 100px;
+    position: relative;
+}
+td h2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: large;
+    color: #fff;
+}
+img {
+    margin: auto;
+    width: 300px;
+}
+.house-icon {
+    width: 80px;
+    transition-duration: 0.5s;
+}
+.house-icon:hover {
+    background: rgba(23, 21, 21, 0.85);
+}
+.house-icon2 {
+    width: 80px;
+}
+.white-house-icon {
+    width: 80px;
+}
+.header-table {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    transition-duration: 0.5s;
+}
+.header-table:hover {
+    position: relative;
+    background: rgba(23, 21, 21, 0.85);
+}
+a {
+    text-decoration: none;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: #0a0909;
+    padding-left: 20px;
+    padding-right: 20px;
+    animation: fade-in 2s ease-in;
+}
+.text-block-top {
+
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/*------- Carousel SLIDER ---------*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding: 25px 25px 25px 25px;
+
+
+}
+
+/* Hide the images by default */
+.mySlides {
+    margin-top: 70px;
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #59b700;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+/* Le corp */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+a {
+    color: darkslategray;
+}
+a:hover {
+    text-decoration: none;
+}
+h1 {
+    font-size: 100px;
+    line-height: 1;
+}
+h2 {
+    font-size: 45px;
+}
+h1, h2 {
+    font-weight: 400;
+    margin: 0;
+}
+
+.content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+h3 {
+    margin-bottom: 0;
+}
+.item-details h3 + p {
+    font-style: italic;
+}
+.item-details h3 ~ p {
+    margin: 0;
+}
+/* cette parti souligne les phrases*/
+.divider > section {
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+.divider > section:last-of-type {
+    border-bottom: none;
+}
+
+
+/* Profile
+------------------------------------*/
+header {
+    background: #000000;
+    color: #F7FFF7;
+}
+
+
+/* Projects
+------------------------------------*/
+.projects {
+    background: #F7FFF7;
+}
+.projects a {
+    color: #2F3061;
+}
+.projects .btn{
+    color: #F7FFF7;
+    background: #2F3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 40px;
+    display: inline-block;
+}
+.projects .btn:hover {
+    background: rgba(47, 48, 97, 80);
+}
+.project-item {
+    overflow: hidden;
+}
+.project-item h3 {
+    margin-top: 0;
+}
+
+
+/* Wor
+------------------------------------*/
+.work-experience {
+    background: #92c26b;
+}
+
+
+
+/* Edu
+------------------------------------*/
+.education {
+    background-image: url(../images/joanna-kosinska-unsplash.jpg);
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 100px;
+}
+.education p {
+    width: 60%;
+}
+
+
+/* Contact Info
+------------------------------------*/
+footer {
+    background: #343434;
+    color: #F7FFF7;
+}
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
+}
+
+
+/* Footer */
+
+.container-footer{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #000000;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #779352;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li{
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+li{
+    color: #bbbbbb;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.footer-col .social-link a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.footer-col .social-link a:hover{
+    color: #24262b;
+    background-color: #59b700;
+}
